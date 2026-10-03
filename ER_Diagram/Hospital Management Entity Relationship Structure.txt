@@ -1,0 +1,23 @@
+PATIENT
+   │
+   ├──── 1 : M ──── INSURANCE
+   │
+   ├──── 1 : M ──── MEDICAL_HISTORY
+   │
+   └──── 1 : M ──── ENCOUNTER
+                       │
+                       ├──── M : 1 ──── DOCTOR
+                       │
+                       ├──── 1 : M ──── PRESCRIPTION
+                       │                    │
+                       │                    └── 1 : M ── PRESCRIPTION_MEDICATION
+                       │                                      │
+                       │                                      └── M : 1 ── MEDICATION
+                       │
+                       ├──── 1 : M ──── TEST_REPORT
+                       │                    │
+                       │                    └── M : 1 ── TEST
+                       │
+                       └──── 1 : M ──── PROCEDURE_RECORD
+                                            │
+                                            └── M : 1 ── MEDICAL_PROCEDURE
