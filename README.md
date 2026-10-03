@@ -8,6 +8,12 @@ This project demonstrates the design and implementation of a hospital management
 
 The database contains 12 related tables connected through primary keys and foreign keys.
 
+## ER Diagram
+
+The Entity Relationship Diagram represents the database entities, attributes, primary keys, foreign keys and relationships.
+
+![Hospital Management System ER Diagram](ER_Diagram/Hospital_Management_Syste_ERD_Diagram.png)
+
 ## Technologies Used
 
 - MySQL
@@ -48,6 +54,7 @@ The database contains the following tables:
 ## SQL Concepts Demonstrated
 
 ### Basic SQL
+
 - SELECT
 - WHERE
 - DISTINCT
@@ -57,6 +64,7 @@ The database contains the following tables:
 - BETWEEN
 
 ### Aggregate Functions
+
 - COUNT()
 - SUM()
 - AVG()
@@ -66,11 +74,13 @@ The database contains the following tables:
 - HAVING
 
 ### Joins
+
 - INNER JOIN
 - LEFT JOIN
 - Multiple-table JOINs
 
 ### Advanced SQL
+
 - Subqueries
 - IN
 - NOT IN
@@ -111,12 +121,6 @@ Contains queries demonstrating relationships between multiple tables.
 `queries/04_advanced_queries.sql`
 
 Contains subqueries, CASE expressions, EXISTS and other advanced SQL queries.
-
-## ER Diagram
-
-The Entity Relationship Diagram represents the database entities, attributes, primary keys, foreign keys and relationships.
-
-![Hospital Management System ER Diagram](ER_Diagram/Hospital_Management_Syste_ERD_Diagram.png)
 
 ## How to Run the Project
 
