@@ -1,26 +1,26 @@
-# Hospital Management System – MySQL
+# 🏥 Hospital Management System – MySQL
 
 A relational database project built using MySQL to manage hospital-related data such as patients, doctors, encounters, prescriptions, medications, medical tests, insurance, medical history, and medical procedures.
 
-## Project Overview
+## 📌 Project Overview
 
 This project demonstrates the design and implementation of a hospital management database using MySQL.
 
 The database contains 12 related tables connected through primary keys and foreign keys.
 
-## ER Diagram
+## 🗂️ ER Diagram
 
 The Entity Relationship Diagram represents the database entities, attributes, primary keys, foreign keys and relationships.
 
 ![Hospital Management System ER Diagram](ER_Diagram/Hospital_Management_Syste_ERD_Diagram.png)
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - MySQL
 - SQL
 - MySQL Workbench
 
-## Database Structure
+## 🗄️ Database Structure
 
 The database contains the following tables:
 
@@ -37,7 +37,7 @@ The database contains the following tables:
 11. Medical Procedure
 12. Procedure Record
 
-## Main Relationships
+## 🔗 Main Relationships
 
 - One patient can have multiple insurance records.
 - One patient can have multiple medical history records.
@@ -51,9 +51,9 @@ The database contains the following tables:
 - One encounter can have multiple procedure records.
 - One medical procedure can appear in multiple procedure records.
 
-## SQL Concepts Demonstrated
+## 💡 SQL Concepts Demonstrated
 
-### Basic SQL
+### 🔹 Basic SQL
 
 - SELECT
 - WHERE
@@ -63,7 +63,7 @@ The database contains the following tables:
 - LIKE
 - BETWEEN
 
-### Aggregate Functions
+### 📊 Aggregate Functions
 
 - COUNT()
 - SUM()
@@ -73,13 +73,13 @@ The database contains the following tables:
 - GROUP BY
 - HAVING
 
-### Joins
+### 🔄 Joins
 
 - INNER JOIN
 - LEFT JOIN
 - Multiple-table JOINs
 
-### Advanced SQL
+### 🚀 Advanced SQL
 
 - Subqueries
 - IN
@@ -88,9 +88,9 @@ The database contains the following tables:
 - CASE
 - Aggregate subqueries
 
-## Project Files
+## 📁 Project Files
 
-### Database
+### 🗃️ Database
 
 `database/01_create_database.sql`
 
@@ -104,7 +104,7 @@ Creates all 12 tables and their relationships.
 
 Inserts sample data into the database.
 
-### Queries
+### 🔍 Queries
 
 `queries/01_basic_queries.sql`
 
@@ -122,7 +122,7 @@ Contains queries demonstrating relationships between multiple tables.
 
 Contains subqueries, CASE expressions, EXISTS and other advanced SQL queries.
 
-## How to Run the Project
+## ▶️ How to Run the Project
 
 1. Install MySQL / MySQL Workbench.
 2. Open `01_create_database.sql`.
@@ -132,12 +132,12 @@ Contains subqueries, CASE expressions, EXISTS and other advanced SQL queries.
 6. Open the query files from the `queries` folder.
 7. Run the queries to explore the database.
 
-## Project Objective
+## 🎯 Project Objective
 
 The objective of this project is to practice relational database design and SQL concepts using a practical hospital management scenario.
 
-## Author
+## 👨‍💻 Author
 
-Ganesh Jogi
+**Ganesh Jogi**
 
 B.Tech Electrical Engineering Graduate | Aspiring Data Analyst / IT Professional
